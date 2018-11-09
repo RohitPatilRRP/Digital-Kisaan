@@ -1,0 +1,66 @@
+
+.itemform{
+	background-color:#242526 ;
+	width:700px;
+	vertical-align:middle;
+	margin-left:300px;
+	margin-top:30px;
+	border-radius:10px;
+}
+.trans--grow{
+  -webkit-transition: width 1s ease-out; /* For Safari 3.1 to 6.0 */
+  transition: width 1s  ease-out;
+  width : 0%;
+}
+.grow{
+width:100%;}
+.itemform hr
+{
+   width:300px;
+padding: 2px 0;
+background-color: grey;
+border-radius:3px;
+
+}
+.itemform h2{
+	padding: 20px 20px 20px 0px;
+}
+.itemform td{
+	padding:10px;
+}
+.itemform input[type=text]
+{
+	width:200px;
+	padding:5px;
+	font-size:15px;
+	border-radius:3px;
+	border:none;
+}
+.itemform textarea{
+	border-radius:3px;
+
+}
+.itemform input[type=text]:hover
+{
+	width:200px;
+	padding:5px;
+	font-size:15px;
+	border-radius:3px;
+	border-bottom-color:#151719;		
+}
+.itemform input[type=submit]
+{
+		width:100px;
+	height:30px;
+	float:center;
+	font-size:15px;
+	border-radius:3px;
+	border:none;
+	color:black;
+	margin-bottom:20px;
+}
+.itemform input[type=submit]:hover 
+{
+	background-color:#1eaa83;
+	color:white;
+}

@@ -1,0 +1,52 @@
+.About
+{
+	margin-top:60px;
+	margin-left:80px;
+    height:700px;
+	width:1200px;
+	background:rgba(255,255,255,0.5);
+	border-radius:10px;
+}
+.About p{
+	padding: 10px 10px 0px 10px;
+	font-size:40px;
+	font-family:sans-serif;
+}
+.About h5{
+	padding: 0px 10px 10px 10px;
+	font-size:20px;font-family:sans-serif;
+}
+.About textarea{
+	width:300px;
+	font-size:15px;
+	
+}
+.About input[type=text]
+{
+	width:300px;
+	font-size:15px;
+}
+.About input[type=submit]
+{
+	width:100px;
+	font-size:15px;
+	padding-bottom:10px;
+}
+.terms
+{
+	margin-top:60px;
+	margin-left:80px;
+    height:auto;
+	width:1200px;
+	background:rgba(255,255,255,0.5);
+	border-radius:10px;
+}
+.terms p{
+	padding: 10px 10px 0px 10px;
+	font-size:40px;
+	font-family:sans-serif;
+}
+.terms h5{
+	padding: 0px 10px 10px 10px;
+	font-size:20px;font-family:sans-serif;
+}

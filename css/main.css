@@ -1,0 +1,223 @@
+.body
+{background:url(../images/background.jpg);
+}
+.store{
+	background:black;
+	height:auto;
+	padding:0px 20px 20px 20px;
+    margin-top:0px;	
+}
+
+.header ul {
+  display:inline;
+  position:absolute;
+  top:0;
+  margin-left:900px;
+}
+.header input[type=text]
+{
+	width:530px;
+	height:30px;
+	font-size:15px;
+	border-radius:5px;
+	padding:10px;
+	border:none;
+	color:grey;
+}
+.header input[type=submit]
+{
+	width:100px;
+	height:30px;
+	float:center;
+	font-size:15px;
+	border-radius:5px;
+	border:none;
+	color:grey;
+}
+.Contact1{
+	
+	background-color:#1eaa83;
+	height:150px;
+	margin-top:auto;
+	
+}
+.Contact1 img {
+	color:white;
+	margin-left:190px;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-right:5px;
+	font-size:15px;
+	font-family:sans-serif;
+}
+.Contact1 h4{
+	color:white;
+	margin-left:470;
+	padding-top:20px;
+	padding-bottom:10px;
+	padding-right:5px;
+	font-size:15px;
+	font-family:sans-serif;
+}
+.dd {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.8);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dd a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dd  a:hover {color:#1eaa83;}
+
+/* Show the dropdown menu on hover */
+.butn:hover .dd  {
+    display: block;
+margin:auto;}
+.butn:hover {
+    display: block;
+color:#1eaa83;	
+margin:auto;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.butn:hover .dd {
+    background-color: #151719;
+}
+.header input[type=submit]:hover
+{
+
+	color:black;
+	background:white;
+}
+.containr{
+	background:#151719;
+	height:40px;
+	margin-left:0px;
+	border-style: solid;
+	border-radius:10px;
+	border-width:1px;
+	border-color:#e5e5e5;
+}
+.containr button:hover{
+	color:green;	
+}
+.containr  ul {
+ 
+  top:100;
+  margin-left:50px;
+}
+.containr ul li{
+  color:white;
+  list-style:none;
+  display:inline-block;
+  margin-top:10px;
+  padding-right:60px;
+  font-family:verdana; 
+  text-decoration:none;
+}
+.containr ul li a{
+  color:white; 
+  text-decoration:none;
+}
+.containr marquee{
+	background:white;
+	width:200px;
+	  height:20px;
+	  
+}
+.frames{
+	height:1150;
+	width:100%;
+	background-color:#e0e2e5;
+	padding:10px;
+	
+}
+.left{
+	font-size:15px;
+	Background:#6b6e72;
+	display:inline-block;
+	height:auto;
+	width:250px; 	
+}
+.right{
+	float:right;
+	top:100;
+	
+}
+.right tr{
+	padding:20px;
+	background:white
+	border-bottom-color:grey;	
+}
+.right td{
+	padding:20px;
+	background:white;
+	border-bottom-color:grey;	
+}
+.right p{
+	margin-bottom:5px;
+	margin-top:5px;
+}
+.right input[type=button]{
+	width:auto;
+	padding:10px;
+	margin-left:5px;
+	font-size:15px;
+	margin-top:5px;
+	border-radius:5px;
+	border:none;
+	font-family: sans-serif;
+   display:inline-block;
+	
+}
+.right input[type=button]:hover{
+	color:white;
+	background-color:#1eaa83;
+}
+.right img:hover {
+    transform: scale(1.2);
+transition: transform .5s;}
+.left  ul {
+ float:left;
+  top:100;
+  margin-left:10px;
+ 
+}
+.left ul li{
+  color:black;
+  list-style:none;
+  margin-top:10px;
+  padding-right:60px;
+  font-family:verdana; 
+  text-decoration:none;
+}
+.left ul li a{
+  color:black; 
+  text-decoration:none;
+}
+.prices{
+	font-size:15px;
+	Background:#6b6e72;
+	display:inline-block;
+	height:auto;
+	width:auto;
+	
+}
+.prices h4{
+	font-size:20px;
+	padding-left:13px;
+	vertical-align:middle;
+}
+.prices p{
+	padding-left:13px;
+	color:black;
+}
